@@ -1,0 +1,60 @@
+.nav-list {
+   justify-self: center;
+   align-self: center;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 65px;
+
+   font-size: 18px;
+   font-weight: 500;
+
+   @include mobile-xl(){
+      display: none;
+   }
+}
+.nav-list__item {
+   padding-bottom: 10px;
+   position: relative;
+}
+.nav-list__link {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+
+   transition: opacity 0.1s ease-in;
+   &:hover {
+      opacity: 0.8;
+   }
+
+   &--dropdown {
+      &::after {
+         content: url(./../img/icons/arrow-down.svg);
+         height: 18px;
+   
+      }
+   }
+   
+}
+.nav-list__sub-nav {
+   opacity: 0;
+   pointer-events: none;
+   width: 160px;
+
+   position: absolute;
+   left: 0;
+   top: calc(100%);
+
+   transform: translate(0, 10%);
+
+   transition: all 0.2s ease-in;
+}
+
+.nav-list__item:hover .nav-list__sub-nav {
+   opacity: 1;
+   pointer-events: all;
+
+   transform: translate(0, 0);
+
+}
