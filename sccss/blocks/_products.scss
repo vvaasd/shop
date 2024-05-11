@@ -1,0 +1,38 @@
+.products {
+   padding: 50px  0;
+   background-color: #F7F7F7;
+}
+.products__title {
+   text-align: center;
+   margin-bottom: 32px;
+}
+.product__tabs {
+   text-align: center;
+   margin-bottom: 80px;
+   display: block;
+
+   @include mobile-mini() {
+      display: none;
+   }
+
+}
+.mobile-product__tabs {
+   display: none;
+
+   @include mobile-mini() {
+      display: block;
+   }
+}
+.products__slider {
+   margin-bottom: clamp(30px, 1.008rem + 4.34vw, 60px);
+
+   @include desktop-mini() {
+      padding-inline: 40px;
+   }
+   @include mobile() {
+      padding-inline: 20px;
+   }
+}
+.products__link {
+   text-align: center;
+}
