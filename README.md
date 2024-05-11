@@ -7,3 +7,4 @@ Stack: HTML5, CSS, JS
 - Sass preprocessor (SCSS)
 - Retina (a bit)
 - Adaptive layout (clamp() & media queries)
+- CSS-variables
