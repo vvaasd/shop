@@ -1,6 +1,6 @@
 # shop-main-page 01.12.2023
 
-My introduction to the layout
+My introduction to the layout (second "project")
 
 Stack: HTML5, CSS, JS
 
