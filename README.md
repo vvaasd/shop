@@ -7,5 +7,5 @@ Stack: HTML5, CSS, JS
 - BEM metodology
 - Sass preprocessor (SCSS)
 - Retina (a bit)
-- Adaptive responsive layout (clamp() & media queries)
+- Adaptive responsive layout (clamp() & media queries + mobile menu)
 - CSS-variables
