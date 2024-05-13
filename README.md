@@ -9,3 +9,5 @@ Stack: HTML5, CSS, JS
 - Retina (a bit)
 - Adaptive responsive layout (clamp() & media queries + mobile menu)
 - CSS-variables
+
+Deployed on Github Pages, [here](https://vvaasd.github.io/shop-main-page/)
