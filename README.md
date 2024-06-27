@@ -2,7 +2,7 @@
 
 My introduction to the layout (second "project")
 
-Stack: HTML5, CSS, JS
+Stack: HTML, CSS, JS
 
 - BEM metodology
 - Sass preprocessor (SCSS)
